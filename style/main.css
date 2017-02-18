@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #F5F5F5;
+}
+#box>ul{
+    margin: 150px auto;
+    border:1px solid #000;
+    border-right: none;
+    border-bottom: none;
+}
+#box>ul>li{
+    width: 20px;
+    height: 20px;
+    list-style: none;
+    border:1px solid #000;
+    border-left: none;
+    border-top: none;
+    float: left;
+}
+div{
+    text-align: center;
+}
+#doing{
+    position: absolute;
+    left: 0;right: 0;top: 0;
+    height: 90px;
+    box-shadow: 0 0 50px #777;
+    background-color: rgba(236, 236, 236, 0.7);
+    padding-top: 20px;
+}
+.red,.yellow,.green{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px -5px 0;
+}
+.red{
+    background-color: #d1d1d1;
+}
+.yellow{
+    background-color: #333;
+}
+.green{
+    background-color: #007de7;
+}
+i{
+    cursor: pointer;
+}
+#begin{
+    background-color: #007de7;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.choose{
+    color:#f55;
+    padding-top: -1px;
+}
+.choose span{
+    border: 1px solid #f00;
+}
+
+.theStart{
+    background-color: #007de7;
+}
+.theEnd{
+    background-color: #333;
+}
+.roadBlock{
+    background-color: #d1d1d1;
+}
+.path{
+    background-color: #57e700;
+}
